@@ -1,0 +1,75 @@
+/*Estilo base do corpo página*/
+body { 
+    font-family: "Nunito", sans-serif;
+    background-color: #f7f7f2;
+    margin: 0;
+    padding: 0;
+}
+
+/*Cabeçalho verde*/
+header {
+    background-color: #a3c9a8;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Área principal da agenda */
+main {
+    max-width: 600px;
+    margin: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*Campo de entrada de tarefas*/
+input[type="text"] {
+    width: 70%;
+    padding: 10%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/*Botão de adicionar tarefa*/
+button {
+    padding: 10px 16px;
+    background-color: #a3c9a8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8ba88e;
+}
+
+/*Lista de tarefas*/
+#lista-tarefas {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#lista-tarefas li {
+    background-color: #f9f9f9;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.marcar {
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.concluida {
+    text-decoration: line-through;
+    color: #999;
+}
